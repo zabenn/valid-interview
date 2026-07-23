@@ -1,0 +1,15 @@
+[project]
+name = "valid-interview"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.139.2",
+    "hachoir>=3.3.0",
+    "numpy>=2.5.1",
+    "ruff>=0.15.22",
+    "shortuuid>=1.0.13",
+    "uvicorn>=0.51.0",
+    "vpdq>=0.2.5",
+]

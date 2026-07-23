@@ -1,0 +1,9 @@
+services:
+  - type: web
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    repo: https://github.com/zabenn/valid-interview
+    plan: starter
+    region: oregon
+    autoDeployTrigger: commit
+version: "1"
